@@ -20,9 +20,16 @@ namespace TEST1
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
         }
+
+        private void B_LEFT_Click(object sender, RoutedEventArgs e)
+        {
+            _lb1.Content = "Нажата левая кнопка";
+        }
+
     }
 }
