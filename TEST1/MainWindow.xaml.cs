@@ -30,6 +30,9 @@ namespace TEST1
         {
             _lb1.Content = "Нажата левая кнопка";
         }
-
+        private void B_RIGHT_Click(object sender, RoutedEventArgs e)
+        {
+            _lb1.Content = "Нажата правая кнопка";
+        }
     }
 }
