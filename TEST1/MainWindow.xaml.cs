@@ -24,5 +24,10 @@ namespace TEST1
         {
             InitializeComponent();
         }
+
+        private void B_RIGHT_Click(object sender, RoutedEventArgs e)
+        {
+            _lb1.Content = "Нажата правая кнопка";
+        }
     }
 }

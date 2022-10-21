@@ -8,8 +8,8 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Button x:Name="B_LEFT" Content="Левая кнопка" HorizontalAlignment="Left" Margin="185,292,0,0" VerticalAlignment="Top" Height="60" Width="187"/>
-        <Button x:Name="B_RIGHT" Content="Правая кнопка" HorizontalAlignment="Left" Margin="441,292,0,0" VerticalAlignment="Top" Height="60" Width="187"/>
-        <Label Content="Надпись" HorizontalAlignment="Left" Margin="278,116,0,0" VerticalAlignment="Top" Height="42" Width="214" RenderTransformOrigin="0.505,0.517" FontSize="16"/>
+        <Button x:Name="B_RIGHT" Content="Правая кнопка" HorizontalAlignment="Left" Margin="441,292,0,0" VerticalAlignment="Top" Height="60" Width="187" Click="B_RIGHT_Click"/>
+        <Label x:Name="_lb1" Content="Надпись" HorizontalAlignment="Left" Margin="278,116,0,0" VerticalAlignment="Top" Height="42" Width="214" RenderTransformOrigin="0.505,0.517" FontSize="16"/>
 
     </Grid>
 </Window>
